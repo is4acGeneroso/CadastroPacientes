@@ -4,6 +4,7 @@
  */
 package com.mycompany.preconsulta;
 
+import java.time.LocalDate;
 import java.util.Random;
 
 /**
@@ -15,6 +16,7 @@ public class Paciente {
     private String nome;
     private int idade;
     private String genero;
+    private LocalDate dataCadastro;
 
     public int getId() {
         return id;
@@ -31,6 +33,16 @@ public class Paciente {
         
         this.id = numeroId;
     }
+
+    public LocalDate getDataCadastro() {
+        return dataCadastro;
+    }
+
+    public void setDataCadastro() {
+        LocalDate dataLocal = LocalDate.now();
+        this.dataCadastro = dataLocal;
+    }
+    
     public String getNome() {
         return nome;
     }
@@ -63,6 +75,7 @@ public class Paciente {
 
     @Override
     public String toString() {
-        return "Paciente{" + "id=" + id + ", nome=" + nome + ", idade=" + idade + ", genero=" + genero + '}';
+        return "Paciente{" + "id=" + id + ", data=" + dataCadastro + ", nome=" + nome + ", idade=" + idade + ", genero=" + genero  + '}';
     }
+    
 }

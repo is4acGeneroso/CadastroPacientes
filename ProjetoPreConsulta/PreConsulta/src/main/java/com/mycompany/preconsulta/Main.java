@@ -44,6 +44,7 @@ public class Main {
             
             paciente[i] = new Paciente();
             paciente[i].setId();
+            paciente[i].setDataCadastro();
             paciente[i].setNome(nome);
             paciente[i].setIdade(idade);
             paciente[i].setGenero(genero);

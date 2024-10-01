@@ -4,6 +4,9 @@
  */
 package com.mycompany.preconsulta;
 
+import java.time.LocalDate;
+
+
 /**
  *
  * @author isaac
@@ -12,7 +15,7 @@ public class ClassificacaoParametros implements MetodosClassificacao {
     private String pressao;
     private String glicemia;
     private String imc;
-    
+
     @Override
     public void classificaPressao(int sistole, int diastole) {
         if(sistole < 110 || diastole < 60) {
@@ -80,7 +83,7 @@ public class ClassificacaoParametros implements MetodosClassificacao {
 
     @Override
     public String toString() {
-        return "Classificacao do Paciente{" + "pressao=" + pressao + ", glicemia=" + glicemia + ", imc=" + imc + '}';
+        return "ClassificacaoParametros{" + "pressao=" + pressao + ", glicemia=" + glicemia + ", imc=" + imc + '}';
     }
-    
+
 }
