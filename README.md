@@ -1,6 +1,14 @@
 # Cadastro De Pacientes
-<p>Este projeto consiste em um cadastro simples de paciente (id, nome, idade, genero)</p>
+<p>Este projeto consiste em um cadastro simples de paciente (id aleatorio de 3 números, nome, idade, genero), e data atual do cadastro</p>
 <p>Implementei alguns metodos para classificação de dados vitais baseados em classificações reais.</p>
+
+## Preview Versão 1
+
+## Cadastro Paciente
+![Preview0](/preview0.gif)
+
+## Cadastro Dados Vitais e Classificação Automática
+![Preview0](/preview1.gif)
 
 ## Ferramentas Utilizadas
 ![NetBeans IDE](https://img.shields.io/badge/NetBeans%2022-1B6AC6.svg?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white) 
